@@ -2,9 +2,9 @@ package TankBuddy;
 
 public class Afstand extends Lijst 
 {
-	public Afstand(String auto, double afstand) 
+	public Afstand(String bestuurder, String auto, double afstand) 
 	{
-		super(auto, afstand);
+		super(bestuurder, auto, afstand);
 	}
 }
 
