@@ -1,9 +1,9 @@
 package TankBuddy;
 
-public class Tankbeurt {
-
-	public static void ingeven(String bestuurder, String auto, double liters, double prijs) {
-	
-		//System.out.println("Bestuurder: " + bestuurder + ", auto: " + auto + ", aantal liters: " + liters + " en de prijs: " + prijs);
+public class Tankbeurt extends Lijst 
+{
+	public Tankbeurt(String bestuurder, String auto, double liters, double prijs) 
+	{
+		super(bestuurder, auto, liters, prijs);
 	}
 }
