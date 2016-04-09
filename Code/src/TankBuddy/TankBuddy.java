@@ -14,14 +14,24 @@ public class TankBuddy {
 		correcteAuto = Ingave.autoKiezen(testAuto);
 		if (true) {
 			Ingave.afstand(testBestuurder,testAuto,testAfgelegd);
-			//Ingave.afstand(testBestuurder,testAuto2,testAfgelegd);
+			Ingave.afstand(testBestuurder,testAuto2,testAfgelegd);
 			Ingave.afstand(testBestuurder2,testAuto2,testAfgelegd);
 			Ingave.afstand(testBestuurder2,testAuto2,testAfgelegd);
+			Ingave.afstand(testBestuurder,testAuto2,testAfgelegd);
+			Ingave.afstand(testBestuurder,testAuto,testAfgelegd);
+			Ingave.afstand(testBestuurder,testAuto2,testAfgelegd);
+			Ingave.afstand(testBestuurder2,testAuto2,testAfgelegd);
+			Ingave.afstand(testBestuurder2,testAuto2,testAfgelegd);
+			Ingave.afstand(testBestuurder,testAuto2,testAfgelegd);
 			
-			//Ingave.tankbeurt(testBestuurder,testAuto,testLiters,testPrijs);
-			//Ingave.afstand(testBestuurder,testAuto2,testLiters,testPrijs);
-			//Ingave.afstand(testBestuurder2,testAuto2,testLiters,testPrijs);
-			//Ingave.afstand(testBestuurder2,testAuto2,testLiters,testPrijs);
+			Ingave.tankbeurt(testBestuurder,testAuto,testLiters,testPrijs);
+			Ingave.tankbeurt(testBestuurder,testAuto2,testLiters,testPrijs);
+			Ingave.tankbeurt(testBestuurder2,testAuto2,testLiters,testPrijs);
+			Ingave.tankbeurt(testBestuurder2,testAuto2,testLiters,testPrijs);
+			Ingave.tankbeurt(testBestuurder,testAuto,testLiters,testPrijs);
+			Ingave.tankbeurt(testBestuurder,testAuto2,testLiters,testPrijs);
+			Ingave.tankbeurt(testBestuurder2,testAuto2,testLiters,testPrijs);
+			Ingave.tankbeurt(testBestuurder2,testAuto,testLiters,testPrijs);
 		}
 		
 	}

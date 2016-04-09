@@ -41,6 +41,8 @@ public class Ingave {
 					//System.out.println("else " + afstanden.get(i).getAuto());
 					i++;
 				}
+		    } else {
+		    	i++;
 		    }
 		} 
 		
@@ -96,6 +98,8 @@ public class Ingave {
 					//System.out.println("else " + tankbeurten.get(i).getAuto());
 					i++;
 				}
+		    } else {
+		    	i++;
 		    }
 		} 
 		
