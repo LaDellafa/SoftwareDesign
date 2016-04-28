@@ -1,4 +1,4 @@
-package TankBuddy;
+package tankbuddy;
 
 public class Afstand extends Lijst 
 {
